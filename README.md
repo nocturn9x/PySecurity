@@ -18,11 +18,11 @@ The installation is very easy: once run the setup wizard will guide you step by 
 
 ### STEP 1 -  PySecurity's Folder
 
-For security purposes, PySecurity **must** be installed inside a folder named "PySecurity" (without apexes). The absolute path is not important, as long as the last folder name is "PySecurity" (e.g. /home/user/PySecurity/main.py it's fine, but also /etc/PySecurity/main.py is)
+For security purposes, PySecurity **must** be installed inside a folder named "PySecurity" (without apexes). The absolute path is not important, as long as the last folder name is "PySecurity" (e.g. /home/user/PySecurity/main.py is fine, but also /etc/PySecurity/main.py is)
 
 ### STEP 2 - The actual install
 
-After setting up the right path, 99% you will just unzip the archive downloaded from the repository and be ready to go, you can run the main.py file with the following command, without apexes: "python3 main.py.
+After setting up the right path,just unzip the archive downloaded from the repository, you can run the main.py file with the following command, without apexes: "python3 main.py" .
 
 The setup wizard will guide you in the installation process automatically.
 
