@@ -84,7 +84,7 @@ def setup():
          database = sqlite3.connect(dbpath)
          cursor = database.cursor()
       except PermissionError:
-         sys.exit(f"[PySecurity - setup] ERROR: Could not create database file due to insufficient permissions. Check that the program uas the rights permissions to create files in the current directory ({os.getc$
+         sys.exit(f"[PySecurity - setup] ERROR: Could not create database file due to insufficient permissions. Check that the program has the rights permissions to create files in the current directory ({os.getcwd()})")
       else:
           print("[PySecurity - setup] Database file created, creating and populating tables")
           try:
