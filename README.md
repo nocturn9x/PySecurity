@@ -28,10 +28,7 @@ The setup wizard will guide you in the installation process automatically.
 
 ### DISCLAIMER
 
-As stated by the license, joined with the executable, the software is provided "as is", with no warranty of any kind and it might have bugs and/or issues that the developer still didn't, or couldn't, fix. The installer needs read/write permissions to its own directory and to the **/etc/bash.bashrc** file in order to work properly.
-
-It is recommended that this software is installed as root user to avoid any problems.
-
-
+As stated by the license, joined with the executable, the software is provided "as is", with no warranty of any kind and it might have bugs and/or issues that the developer still didn't, or couldn't, fix. The installer needs read/write permissions to its own directory and to the **/etc/bash.bashrc** file in order to work properl
+It is recommended that this software is installed as root user to avoid any permission related issues, though if there are non-root users on the server they won't be able to access the installation directory and the protection will be useless, so the best way of installing PySecurity is on a user-accessible directory
 
 
