@@ -33,4 +33,6 @@ As stated by the license, joined with the executable, the software is provided "
 
 It is recommended that this software is installed with a sudoed (not as root) user to avoid any permission related issues and still allow non-root users on the server to access the installation directory, so the best place of installing PySecurity is on a user-accessible directory
 
+# Security notice: Disabling SFTP is highly recommended because it has the same password as SSH and that would make PySecurity useless 
+
 
